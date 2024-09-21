@@ -1,56 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-    background-color: #f9fdee;
-    font-size: 18px;
-    color: #333;
-    font-family: cursive;
-    line-height: 1.5;
-  }
-  
-  h1 {
-    margin-top: 30px;
-    margin-bottom: 5px;
-    text-align: center;
-    font-size: 60px;
-  }
-   
-  h2 {
-    margin-top: 0px;
-    padding-bottom: 30px;
-    text-align: center;
-    font-size: 25px;
-    
-  }
-  
-  section {
-  margin: 50px 0px;
-  padding: 15px 50px;
-  background-color: white;
-   }
-  
-  section h2 {
-    padding: 0px;
-    text-align: left;
-    border: none;
-  }
-  
-  li {
-    margin-bottom: 10px;
-  }
-
-.short-about {
-  border: 10px groove pink;
+  font: 20px/1.5 cursive;
+  background-color: #f9fdee;
+  color: #333333;
+  margin: 0px 20px;
 }
 
-.about {
-  border: 10px groove pink;
+h1 {
+  margin-top: 5px;
+  margin-bottom: 3px;
+  text-align: center;
+  font-size: 60px;
+}
+ 
+h2 {
+  margin-top: 0px;
+  padding-bottom: 5px;
+  text-align: center;
+  font-size: 25px;
+  
 }
 
-.goal {
-    border: 10px groove pink;
+section {
+margin: 45px 0px;
+padding: 15px 50px;
+background-color: white;
+border-top: 15px solid pink;
+ }
+
+section h2 {
+  padding: 0px;
+  text-align: left;
+  border: none;
 }
+
+li {
+  margin-bottom: 10px;
+}
+
 
 .coming-soon {
-    text-align: center;
-    padding: 10px 0px;
-    border: 10px groove pink;
+  text-align: center;
+  padding: 10px 0px;
 }
+
