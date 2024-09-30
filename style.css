@@ -3,17 +3,18 @@
 }
 
 body {
-  font: 20px/1.5 cursive;
+  font: 20px/1.5 cursive, sans-serif;
   background-color: #f9fdee;
   color: #333333;
   margin: 0px 20px;
 }
 
 h1 {
-  margin-top: 5px;
-  margin-bottom: 3px;
-  text-align: center;
+  height: 90px;
+  width: 230px;
+  margin: 0 auto;
   font-size: 60px;
+  font-style: oblique;
 }
  
 h2 {
@@ -21,17 +22,19 @@ h2 {
   padding-bottom: 5px;
   text-align: center;
   font-size: 25px;
-  
+  font-style: italic;
+  font-variant: small-caps;
 }
 
 section {
-margin: 45px 0px;
+margin: 35px 0px;
 padding: 15px 50px;
 background-color: white;
 border-top: 15px solid pink;
  }
 
 section h2 {
+  margin-bottom: 10px;
   padding: 0px;
   text-align: left;
   border: none;
@@ -41,9 +44,27 @@ li {
   margin-bottom: 10px;
 }
 
+ul {
+  list-style-image: url();
+  list-style-type: square;
+}
+
 
 .coming-soon {
   text-align: center;
   padding: 10px 0px;
+  font-style: italic;
+  font-family: "Kalnia Glaze", sans-serif;
+}
+
+.form {
+margin: 35px 0px;
+padding: 15px 50px;
+background-color: white;
+border-top: 15px solid rgb(143, 143, 243);
+}
+
+.form-h{
+  text-align: left;
 }
 
