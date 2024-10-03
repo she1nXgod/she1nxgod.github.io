@@ -7,46 +7,85 @@
     <link href="https://fonts.googleapis.com/css2?family=Kalnia+Glaze&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
-  <body>
+<body>
+  <header id="name">
+      <h1>Даниил</h1>
+      <h2>Студент Hexlet колледжа</h2>
+  </header>
 
-    <header id="name">
-        <h1>Даниил</h1>
-        <h2>Студент Hexlet колледжа</h2>
-    </header>
+  <main>
+  <div class="form">
+        <form>
+        <fieldset>
+          <legend class="form-h">Регистрация</legend>
+          <label>
+            Логин
+            <br>
+            <input class="input-form" type="text" name="name" placeholder="Введите логин">
+          </label>
+          <br>
+          <div class="label-password">
+            <label>
+              Пароль
+              <br>
+              <input class="input-form" type="text" name="password" placeholder="Введите пароль">
+            </label>
+            <br>
+            <button class="login-box"><span class="login-span">Войти</span></button>
+          </div>
+        </fieldset>
+      </form>
+    </div>
 
-    <main>
-        <section class="short-about">
-          <h2>Образование</h2>
-            <ul>
-              <li>Среднее профессиональное образование</li>
-              <li>Учусь в <i>Hexlet колледже</i></li>
-            </ul>
-        </section>
+    <section class="short-about">
+      <h2>Образование</h2>
+        <ul>
+          <li>Среднее профессиональное образование</li>
+          <li>Учусь в <i>Hexlet колледже</i></li>
+        </ul>
+    </section>
 
-        <section class="about">
-          <h2>Увлечения</h2>
-            <ul>
-              <li>Люблю путишевствовать, открыть для себя новые места и также отдыхать на природе</li>
-              <li>Имею базовые навыки верстки на HTML</li>
-            </ul>
-        </section>
+    <section class="about">
+      <h2>Увлечения</h2>
+        <ul>
+          <li>Люблю путишевствовать, открыть для себя новые места и также отдыхать на природе</li>
+          <li>Имею базовые навыки верстки на <span class="html-box">HTML</span></li>
+        </ul>
+    </section>
 
-        <section class="goal">
-          <h2>Цели</h2>
-            <p>Лежать под пальмой на пляже и получать миллион, став программистом</p>
-        </section>
+    <section class="goal">
+      <h2>Цели</h2>
+        <p>Лежать под пальмой на пляже и получать миллион, став программистом</p>
+    </section>
 
-        <div class="form">
-          <h2 class="form-h">Регистрация</h2>
-           <form>
-            <label for="name" class="sr-only">Почта</label>
-            <input id="name" type="text">
-          </form>
-        </div>
+    <section>
+      <h2>Кто я?</h2>
+        <form>
+          <label class="question-container">
+            <input type="radio" name="question" value="cook">
+            Повар
+          </label> 
+          <br>
 
-        <section class="coming-soon"> 
-            <h3><i>coming soon...</i></h3>
-        </section>
-    </main>
-  </body>
+          <label class="question-container">
+            <input type="radio" name="question" value="janitor">
+            Дворник
+          </label> 
+          <br>
+
+          <label class="question-container">
+            <input type="radio" name="question" value="programmer">
+            Программист
+          </label>
+          <br>
+
+          <button class="send-box"><span class="send-span">Проверить</span></button>
+        </form>
+    </section>
+
+    <section class="coming-soon"> 
+        <h3><i>coming soon...</i></h3>
+    </section>
+  </main>
+</body>
 </html>
