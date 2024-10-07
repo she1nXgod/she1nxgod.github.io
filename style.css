@@ -5,8 +5,37 @@
 body {
   font: 20px/1.5 cursive, sans-serif;
   background-color: #f7fce5;
+  /* background-image: url(https://img.freepik.com/premium-photo/natural-anime-landscape-with-bright-sky-juicy-colors_739292-2801.jpg);
+  background-position: center;
+  background-size: cover; */
   color: #333333;
   margin: 0px 20px;
+}
+
+:root {
+  --section-background: white;
+}
+
+a {
+  display: block;
+  height: 129px;
+  width: 140px;
+  background-color: none;
+  position: absolute;
+}
+
+.git {
+  font-size: 16px;
+  margin: 0;
+  padding-left: 3%;
+}
+
+.my-name {
+  background-image: url(jpg/ai.jpg);
+  background-repeat: no-repeat;
+  background-size: 120px;
+  background-position: 1% 15px;
+  
 }
 
 h1 {
@@ -14,12 +43,13 @@ h1 {
   width: 230px;
   margin: 0 auto;
   font-size: 60px;
+  font-style: normal;
   font-style: oblique;
 }
  
 h2 {
-  margin-top: 0px;
-  padding-bottom: 5px;
+  margin: 0px;
+  padding-bottom: 0px;
   text-align: center;
   font-size: 25px;
   font-style: italic;
@@ -29,7 +59,7 @@ h2 {
 section {
   margin: 35px 0px;
   padding: 15px 50px;
-  background-color: white;
+  background-color: var(--section-background);
   border-top: 15px solid pink;
   border-radius: 20px;
 }
@@ -47,7 +77,7 @@ li {
 
 ul {
   list-style-image: url();
-  list-style-type: square;
+  list-style-type: none;
 }
 
 
@@ -59,7 +89,7 @@ ul {
 }
 
 .form {
-margin: 35px 0px;
+margin-bottom: 35px;
 padding: 15px 50px;
 background-color: white;
 border-top: 15px solid rgb(143, 143, 243);
@@ -129,4 +159,36 @@ fieldset {
  font: 16px/1 sans-serif;
  margin-left: 62px;
  font-weight: 600;
+}
+
+button:hover {
+  color: #333333;
+}
+
+button:active {
+  color: pink;
+}
+
+.hover-bold:hover {
+  font-weight: bold;
+}
+
+h1::first-letter {
+  color: pink;
+  font-size: 1.2em;
+}
+
+ul li::before {
+  position: absolute;
+  left: 70px;
+
+  width: 35px;
+  height: 35px;
+
+  /* background-image: url("https://assets.codepen.io/1425525/hexlet_logo.png"); */
+  background-image: url("jpg/2-star.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  content: "";
 }
