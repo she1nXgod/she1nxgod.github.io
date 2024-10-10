@@ -4,7 +4,8 @@
 
 body {
   font: 20px/1.5 cursive, sans-serif;
-  background-color: #f7fce5;
+  /* background: linear-gradient(#f7fce5, #e7fabcc4, #f3ffc8) ; */
+  background: linear-gradient(130deg, #cfecd0, #ffc5ca);
   /* background-image: url(https://img.freepik.com/premium-photo/natural-anime-landscape-with-bright-sky-juicy-colors_739292-2801.jpg);
   background-position: center;
   background-size: cover; */
@@ -16,26 +17,26 @@ body {
   --section-background: white;
 }
 
+.my-name {
+  background-image: url(jpg/ai.jpg);
+  background-repeat: no-repeat;
+  background-size: 120px;
+  background-position: 1% 15px;
+}
+
 a {
   display: block;
   height: 129px;
   width: 140px;
   background-color: none;
   position: absolute;
+
 }
 
 .git {
   font-size: 16px;
   margin: 0;
   padding-left: 3%;
-}
-
-.my-name {
-  background-image: url(jpg/ai.jpg);
-  background-repeat: no-repeat;
-  background-size: 120px;
-  background-position: 1% 15px;
-  
 }
 
 h1 {
@@ -162,7 +163,7 @@ fieldset {
 }
 
 button:hover {
-  color: #333333;
+  background-color: #0056b3;
 }
 
 button:active {
@@ -174,11 +175,12 @@ button:active {
 }
 
 h1::first-letter {
-  color: pink;
+  color: rgb(255, 159, 175);
   font-size: 1.2em;
 }
 
 ul li::before {
+  /* лучше делать через ::marker */
   position: absolute;
   left: 70px;
 
@@ -191,4 +193,14 @@ ul li::before {
   background-size: cover;
 
   content: "";
+}
+
+.EEYUH {
+  font-size: 15px;
+  margin: 0px 0px 0px 60px;
+}
+
+.Irokz-Never {
+  font-size: 15px;
+  margin: 0px 0px 0px 40px;
 }

@@ -1,0 +1,11 @@
+.chess {
+    background: rgb(105, 72, 2);
+    width: 500px;
+    height: 500px;
+    
+}
+
+.chess tr:nth-child(odd) td:nth-child(odd),
+.chess tr:nth-child(even) td:nth-child(even) {
+    background: rgb(255, 166, 0);
+}
